@@ -52,6 +52,8 @@ a:hover{
 .back-home{
     font-size: .9rem;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .back-home a{
@@ -98,6 +100,7 @@ a:hover{
 
 /* BACK TO TOP */
 .bottom-nav{
+    margin-top: 2rem;
     text-align: center;
     padding: 15px;
 }
@@ -471,6 +474,15 @@ border-radius: 10px;
     -webkit-transition: font-size .3s ease;
     -o-transition: font-size .3s ease;
     transition: font-size .3s ease;
+}
+
+/* SKILLS INFO */
+#skills-info{
+    margin: auto;
+}
+
+#skills-info ul li i{
+    font-size: .8rem;
 }
 
 /* HARD SKILLS */
