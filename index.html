@@ -38,6 +38,14 @@
             <!-- SECTION SECOND TITLE -->
             <h3 class="main-section-second-title title gold">Portfolio</h3>
 
+            <!-- PRESENTATION TEXTE -->
+            <div id="main-section-presentation">
+                <p>
+                    Après diverses expériences professionnelles dans différents métiers, j'ai pris la décision de me reconvertir dans le développement web.
+                    C'est un domaine qui me passionne depuis mes plus jeunes années, et je peux enfin réaliser mon rêve. Je suis très motivé et j'ai soif d'apprendre. J'investis beaucoup de temps dans la pratique et l'auto-apprentissage pour être à la hauteur des tâches qui me seront confiées.
+                </p>
+            </div>
+
             <!-- NAVIGATION-->
             <nav>
                 <ul class="nav-list">
@@ -131,6 +139,43 @@
             <div class="back-home">
                 <a class="gold" href="#home-section">Retour</a>
             </div>
+
+            <!-- VISUAL SEPARATION -->
+            <div class="gold-line"></div>
+
+            <!-- A L'EAU SERVICES -->
+            <article class="article">
+
+                <!-- CONTAINER FLEX FOR 768PX MEDIA QUERIES -->
+                <div class="container-flex">
+                    <div>
+                        <!-- ARTICLE TITLE -->
+                        <h4 class="article-title">
+                            A L'EAU SERVICES
+                        </h4>
+
+                        <!-- ARTICLE CONTENT -->
+                        <p class="article-content">
+                            Site professionnel pour l'entreprise A L'EAU SERVICES réalisé pendant mon stage de fin de formation.
+                            Il s'agit d'un site avec une partie vitrine et un système de gestion de client, de prestations effectuées et de fichier.
+                            Développé avec Symfony.
+                        </p>
+                    </div>
+
+                    <div>
+                        <!-- ARTICLE PICTURE -->
+                        <div class="article-picture">
+                            <img src="./images/realisations/aleauservices.png" alt="A L'eau services">
+                        </div>
+
+                        <!-- ARTICLE MORE INFORMATION -->
+                        <p class="more">
+                            <a href="https://aleauservices.fr/">Accéder au site.</a>
+                        </p>
+                    </div>
+                </div>
+
+            </article>
 
             <!-- VISUAL SEPARATION -->
             <div class="gold-line"></div>
@@ -315,6 +360,42 @@
             <!-- VISUAL SEPARATION -->
             <div class="gold-line"></div>
 
+            <!-- FEM #6 -->
+            <article class="article">
+
+                <!-- CONTAINER FLEX FOR 768PX MEDIA QUERIES -->
+                <div class="container-flex">
+                    <div>
+                        <!-- ARTICLE TITLE -->
+                        <h4 class="article-title">
+                            FrontEnd Mentor Challenge #6
+                        </h4>
+
+                        <!-- ARTICLE CONTENT -->
+                        <p class="article-content">
+                            Voici ma solution pour le sixième challenge du site FrontEnd mentor que j'ai réalisé.
+                            Cette fois-ci j'utilise l'accordéon Bootstrap personnalisé pour coller au challenge.
+                        </p>
+                    </div>
+
+                    <div>
+                        <!-- ARTICLE PICTURE -->
+                        <div class="article-picture">
+                            <img src="./images/realisations/fem6.png" alt="Sixth challenge on FEM">
+                        </div>
+
+                        <!-- ARTICLE MORE INFORMATION -->
+                        <p class="more">
+                            <a href="https://www.frontendmentor.io/solutions/mobile-first-custom-bootstrap-accordion-zsQLZZqJe">Accéder à la solution sur FrontEnd Mentor.</a>
+                        </p>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-- VISUAL SEPARATION -->
+            <div class="gold-line"></div>
+
             <!-- CV #1 -->
             <article class="article">
 
@@ -376,42 +457,6 @@
                         <!-- ARTICLE MORE INFORMATION -->
                         <p class="more">
                             <a href="https://alexgdevpro.github.io/Site_CV_v2/">Accéder au site.</a>
-                        </p>
-                    </div>
-                </div>
-
-            </article>
-
-            <!-- VISUAL SEPARATION -->
-            <div class="gold-line"></div>
-
-            <!-- FEM #6 -->
-            <article class="article">
-
-                <!-- CONTAINER FLEX FOR 768PX MEDIA QUERIES -->
-                <div class="container-flex">
-                    <div>
-                        <!-- ARTICLE TITLE -->
-                        <h4 class="article-title">
-                            FrontEnd Mentor Challenge #6
-                        </h4>
-
-                        <!-- ARTICLE CONTENT -->
-                        <p class="article-content">
-                            Voici ma solution pour le sixième challenge du site FrontEnd mentor que j'ai réalisé.
-                            Cette fois-ci j'utilise l'accordéon Bootstrap personnalisé pour coller au challenge.
-                        </p>
-                    </div>
-
-                    <div>
-                        <!-- ARTICLE PICTURE -->
-                        <div class="article-picture">
-                            <img src="./images/realisations/fem6.png" alt="Sixth challenge on FEM">
-                        </div>
-
-                        <!-- ARTICLE MORE INFORMATION -->
-                        <p class="more">
-                            <a href="https://www.frontendmentor.io/solutions/mobile-first-custom-bootstrap-accordion-zsQLZZqJe">Accéder à la solution sur FrontEnd Mentor.</a>
                         </p>
                     </div>
                 </div>
@@ -547,7 +592,7 @@
 
                 <!-- ARTICLE TITLE -->
                 <h3 class="article-title">
-                    <i class="fas fa-quote-left"></i> Expériences <i class="fas fa-quote-right"></i>
+                    <i class="fas fa-quote-left"></i> Dernières expériences <i class="fas fa-quote-right"></i>
                 </h3>
 
                 <!-- ARTICLE CONTENT LECLERC #1 -->
@@ -598,7 +643,7 @@
                     </p>
 
                     <!-- EXPERIENCE DESCRIPTION -->
-                    <ul class="content-list">
+                    <ul id="hard" class="content-list">
                         <li>
                             Remplissage des rayons avec rotation des dates.
                         </li>
@@ -615,151 +660,151 @@
 
                 </div>
 
-                <!-- ARTICLE CONTENT BUT-->
-                <div class="article-content">
+<!--                &lt;!&ndash; ARTICLE CONTENT BUT&ndash;&gt;-->
+<!--                <div class="article-content">-->
 
-                    <!-- EXPERIENCE NAME -->
-                    <h4 class="content-name">
-                        Magasinier - <span>BUT international</span>
-                    </h4>
+<!--                    &lt;!&ndash; EXPERIENCE NAME &ndash;&gt;-->
+<!--                    <h4 class="content-name">-->
+<!--                        Magasinier - <span>BUT international</span>-->
+<!--                    </h4>-->
 
-                    <!-- EXPERIENCE DATE -->
-                    <p class="content-date">
-                        01/2012 - 02/2012
-                    </p>
+<!--                    &lt;!&ndash; EXPERIENCE DATE &ndash;&gt;-->
+<!--                    <p class="content-date">-->
+<!--                        01/2012 - 02/2012-->
+<!--                    </p>-->
 
-                    <!-- EXPERIENCE DESCRIPTION -->
-                    <ul class="content-list">
-                        <li>
-                            Réceptions des marchandises.
-                        </li>
-                        <li>
-                            Gestion de la réserve.
-                        </li>
-                        <li>
-                            Préparations et livraisons des commandes.
-                        </li>
-                        <li>
-                            Service à la clientèle.
-                        </li>
-                    </ul>
+<!--                    &lt;!&ndash; EXPERIENCE DESCRIPTION &ndash;&gt;-->
+<!--                    <ul class="content-list">-->
+<!--                        <li>-->
+<!--                            Réceptions des marchandises.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Gestion de la réserve.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Préparations et livraisons des commandes.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Service à la clientèle.-->
+<!--                        </li>-->
+<!--                    </ul>-->
 
-                </div>
+<!--                </div>-->
 
-                <!-- ARTICLE CONTENT ELIS-->
-                <div class="article-content">
+<!--                &lt;!&ndash; ARTICLE CONTENT ELIS&ndash;&gt;-->
+<!--                <div class="article-content">-->
 
-                    <!-- EXPERIENCE NAME -->
-                    <h4 class="content-name">
-                        Agent de production - <span>PIERRETTE T.B.A. ELIS</span>
-                    </h4>
+<!--                    &lt;!&ndash; EXPERIENCE NAME &ndash;&gt;-->
+<!--                    <h4 class="content-name">-->
+<!--                        Agent de production - <span>PIERRETTE T.B.A. ELIS</span>-->
+<!--                    </h4>-->
 
-                    <!-- EXPERIENCE DATE -->
-                    <p class="content-date">
-                        01/2012
-                    </p>
+<!--                    &lt;!&ndash; EXPERIENCE DATE &ndash;&gt;-->
+<!--                    <p class="content-date">-->
+<!--                        01/2012-->
+<!--                    </p>-->
 
-                    <!-- EXPERIENCE DESCRIPTION -->
-                    <ul class="content-list">
-                        <li>
-                            Gestion de la réserve.
-                        </li>
-                        <li>
-                            Préparations et chargements des tournées.
-                        </li>
-                        <li>
-                            Réceptions des marchandises.
-                        </li>
-                    </ul>
+<!--                    &lt;!&ndash; EXPERIENCE DESCRIPTION &ndash;&gt;-->
+<!--                    <ul class="content-list">-->
+<!--                        <li>-->
+<!--                            Gestion de la réserve.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Préparations et chargements des tournées.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Réceptions des marchandises.-->
+<!--                        </li>-->
+<!--                    </ul>-->
 
-                </div>
+<!--                </div>-->
 
-                <!-- ARTICLE CONTENT PAT'COURSE -->
-                <div class="article-content">
+<!--                &lt;!&ndash; ARTICLE CONTENT PAT'COURSE &ndash;&gt;-->
+<!--                <div class="article-content">-->
 
-                    <!-- EXPERIENCE NAME -->
-                    <h4 class="content-name">
-                        Chauffeur-livreur - <span>SARL Pat'Course</span>
-                    </h4>
+<!--                    &lt;!&ndash; EXPERIENCE NAME &ndash;&gt;-->
+<!--                    <h4 class="content-name">-->
+<!--                        Chauffeur-livreur - <span>SARL Pat'Course</span>-->
+<!--                    </h4>-->
 
-                    <!-- EXPERIENCE DATE -->
-                    <p class="content-date">
-                        07/2010 - 11/2010
-                    </p>
+<!--                    &lt;!&ndash; EXPERIENCE DATE &ndash;&gt;-->
+<!--                    <p class="content-date">-->
+<!--                        07/2010 - 11/2010-->
+<!--                    </p>-->
 
-                    <!-- EXPERIENCE DESCRIPTION -->
-                    <ul class="content-list">
-                        <li>
-                            Préparations et chargements des tournées.
-                        </li>
-                        <li>
-                            Livraisons de marchandises diverses et pharmaceutiques au niveau régional.
-                        </li>
-                        <li>
-                            Entretien du véhicule.
-                        </li>
-                    </ul>
+<!--                    &lt;!&ndash; EXPERIENCE DESCRIPTION &ndash;&gt;-->
+<!--                    <ul class="content-list">-->
+<!--                        <li>-->
+<!--                            Préparations et chargements des tournées.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Livraisons de marchandises diverses et pharmaceutiques au niveau régional.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Entretien du véhicule.-->
+<!--                        </li>-->
+<!--                    </ul>-->
 
-                </div>
+<!--                </div>-->
 
-                <!-- ARTICLE CONTENT MAC DONALD'S -->
-                <div class="article-content">
+<!--                &lt;!&ndash; ARTICLE CONTENT MAC DONALD'S &ndash;&gt;-->
+<!--                <div class="article-content">-->
 
-                    <!-- EXPERIENCE NAME -->
-                    <h4 class="content-name">
-                        Employé polyvalent - <span>Marsud Mac Donald's</span>
-                    </h4>
+<!--                    &lt;!&ndash; EXPERIENCE NAME &ndash;&gt;-->
+<!--                    <h4 class="content-name">-->
+<!--                        Employé polyvalent - <span>Marsud Mac Donald's</span>-->
+<!--                    </h4>-->
 
-                    <!-- EXPERIENCE DATE -->
-                    <p class="content-date">
-                        09/2008 - 11/2009
-                    </p>
+<!--                    &lt;!&ndash; EXPERIENCE DATE &ndash;&gt;-->
+<!--                    <p class="content-date">-->
+<!--                        09/2008 - 11/2009-->
+<!--                    </p>-->
 
-                    <!-- EXPERIENCE DESCRIPTION -->
-                    <ul class="content-list">
-                        <li>
-                            Accueil des clients et prises de commandes.
-                        </li>
-                        <li>
-                            Préparations des commandes.
-                        </li>
-                        <li>
-                            Cuisine (tous types), caisse, drive.
-                        </li>
-                        <li>
-                            Gestion des stocks.
-                        </li>
-                    </ul>
+<!--                    &lt;!&ndash; EXPERIENCE DESCRIPTION &ndash;&gt;-->
+<!--                    <ul class="content-list">-->
+<!--                        <li>-->
+<!--                            Accueil des clients et prises de commandes.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Préparations des commandes.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Cuisine (tous types), caisse, drive.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Gestion des stocks.-->
+<!--                        </li>-->
+<!--                    </ul>-->
 
-                </div>
+<!--                </div>-->
 
-                <!-- ARTICLE CONTENT IPR -->
-                <div id="hard" class="article-content">
+<!--                &lt;!&ndash; ARTICLE CONTENT IPR &ndash;&gt;-->
+<!--                <div class="article-content">-->
 
-                    <!-- EXPERIENCE NAME -->
-                    <h4 class="content-name">
-                        Façadier - <span>I.P.R.</span>
-                    </h4>
+<!--                    &lt;!&ndash; EXPERIENCE NAME &ndash;&gt;-->
+<!--                    <h4 class="content-name">-->
+<!--                        Façadier - <span>I.P.R.</span>-->
+<!--                    </h4>-->
 
-                    <!-- EXPERIENCE DATE -->
-                    <p class="content-date">
-                        03/2008 - 07/2008
-                    </p>
+<!--                    &lt;!&ndash; EXPERIENCE DATE &ndash;&gt;-->
+<!--                    <p class="content-date">-->
+<!--                        03/2008 - 07/2008-->
+<!--                    </p>-->
 
-                    <!-- EXPERIENCE DESCRIPTION -->
-                    <ul class="content-list">
-                        <li>
-                            Réalisations de façades en équipe.
-                        </li>
-                        <li>
-                            Travail en hauteur.
-                        </li>
-                        <li>
-                            Entretien et nettoyage du matériel et des chantiers.
-                        </li>
-                    </ul>
+<!--                    &lt;!&ndash; EXPERIENCE DESCRIPTION &ndash;&gt;-->
+<!--                    <ul class="content-list">-->
+<!--                        <li>-->
+<!--                            Réalisations de façades en équipe.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Travail en hauteur.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Entretien et nettoyage du matériel et des chantiers.-->
+<!--                        </li>-->
+<!--                    </ul>-->
 
-                </div>
+<!--                </div>-->
 
             </article>
 

@@ -154,7 +154,7 @@ a:hover{
     height: 80vh;
 }
 
-/* TITLE */
+/* TITLES */
 .home-section .main-section-title{
     margin-top: 30px;
     padding: 20px 50px;
@@ -165,8 +165,8 @@ a:hover{
     font-family: 'Dancing Script', cursive;
     opacity: 0;
     font-size: 4rem;
-    -webkit-animation: apparition 1.5s 1s both;
-            animation: apparition 1.5s 1s both;
+    -webkit-animation: apparition 1.5s .7s both;
+            animation: apparition 1.5s .7s both;
     margin-top: 20px;
 }
 
@@ -176,9 +176,20 @@ a:hover{
     transition: font-size .3s ease;
 }
 
+/* PRESENTATION */
+#main-section-presentation{
+    text-align: center;
+    font-size: 1rem;
+    width: 80%;
+    margin: 30px auto 20px;
+    transition: font-size .3s ease;
+    animation: apparition 1.5s 1.7s both;
+    line-height: 1.4;
+}
+
 /* NAVIGATION */
 .home-section .nav-list{
-    margin: 50px auto;
+    margin: 30px auto 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -779,6 +790,10 @@ border-radius: 10px;
         margin-top: 40px;
     }
 
+    #main-section-presentation{
+        font-size: 1.3rem;
+    }
+
     /* HOME SECTION NAVIGATION*/
     .home-section .nav-list{
         max-width: 700px;
@@ -835,8 +850,9 @@ border-radius: 10px;
         font-size: 1.6rem;
     }
 
-    .cv-section .article-title{
+    .cv-section .article-title {
         font-size: 1.7rem;
+    }
 
     .cv-section .article-content .content-name{
         font-size: 1.5rem;
@@ -899,5 +915,12 @@ border-radius: 10px;
         100%{
             width: 500px;
         }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #main-section-presentation{
+        width: 60%;
+        max-width: 1000px;
     }
 }
